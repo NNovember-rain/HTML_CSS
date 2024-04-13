@@ -1,0 +1,79 @@
+@media screen and (max-width: 991px){
+    .Header .container{
+        background-color: rgb(119, 115, 115);
+        color: aliceblue;
+    
+    }
+    .box1{
+        display: inline-block;
+        left: 20px;
+        top: 50px;
+        max-width: 100%;
+    }
+
+    .box1 img{
+        display: none;
+    }
+
+    .box1 p{
+        opacity: 50%;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .box1 .h1Qc{
+        position: static;
+        color: black;
+    }
+    .Main-Content{
+        background-color: white;
+    }
+    .line{
+        height: 2px;
+        background-color: rgb(206, 206, 206);
+        opacity: 40%;
+    }
+    
+
+    .box2{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .image-container{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 300px 270px;
+
+    }
+    .image-container .col-img{
+        width: 100%;
+        height: auto;
+    }
+    .image img{
+        overflow: hidden;
+        width: 100%;
+        height: auto;
+        
+    }
+    .fContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 40px 40px;
+        padding-bottom: 70px;
+    }
+    .fContainer .site{
+        width: 100%;
+        margin-top: 5%;
+    }
+    
+}
+@media screen and (max-width: 767px){
+    .image-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
